@@ -1,7 +1,7 @@
 def calculator():
     try:
-        a = float(input("Введите первое число: "))
-        b = float(input("Введите второе число: "))
+        a = float(input(" первое число: "))
+        b = float(input(" второе число: "))
         op = input("Введите операцию (+, -, *, /): ")
 
         if op == '+':

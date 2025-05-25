@@ -7,17 +7,18 @@ class Animal:
 
 class Dog(Animal):
     def speak(self):
-        print("Dog says: Woof!")
+        print(" says: Woof!")
 
 class Cat(Animal):
     def speak(self):
-        print("Cat says: Meow!")
+        print(" says: Meow!")
 
 class Parrot(Animal):
     def speak(self):
-        print("Parrot says: I'm a pirate!")
+        print(" says: I'm a pirate!")
 
 
 animals = [Dog(), Cat(), Parrot()]
 for animal in animals:
     animal.speak()
+    animal.describe()
